@@ -1,0 +1,26 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: #3e3e3e;
+}
+
+div#panel {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff8c8;
+    padding: 100px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.round {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
